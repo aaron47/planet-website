@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins' , sans-serif;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  background-image: url("./planetwebsite1.jpg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav-bar nav ul {
+  list-style: none;
+  float: right;
+  width: 30vw;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  flex-direction: row;
+  margin-right: 270px;
+}
+
+.nav-bar nav a {
+  color: #469DDD;
+  justify-content: space-evenly;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.nav-bar a:hover, .nav-bar a.active {
+  color: #fff;
+}
+
+h2 {
+  margin-left: 270px;
+  font-size: 35px;
+  color: #469DDD;
+}
+
+.introduction {
+  display: block;
+  justify-content: center;
+  margin-top: 200px;
+  margin-left: 200px;
+  max-width: 350px;
+  color: #fff;
+}
+
+.service-btn {
+  margin-left: 230px;
+  margin-top: 20px;
+  color: #fff;
+  font-size: 20px;
+  background-color: #419FE1;
+  border: none;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.service-btn:hover {
+  background-color: #fff;
+  color: #419FE1;
+  transition: .3s linear;
+}
+
+.main-content h1, .main-content p {
+  color: #fff;
+}
+
+.main-content h1 {
+  text-align: center;
+  margin: 200px 600px 20px 0;
+  margin-bottom: 25px;
+}
+
+.main-content p {
+  flex: 1;
+  max-width: 375px;
+  margin-left: 273px;
+  font-size: 20px;
+}
+
+.get-btn {
+  margin-left: 273px;
+  margin-top: 20px;
+  color: #fff;
+  font-size: 20px;
+  background-color: #419FE1;
+  border: none;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.get-btn:hover {
+  background-color: #fff;
+  color: #419FE1;
+  transition: .3s linear;
+}
+
+.pricing-table {
+  justify-content: space-evenly;
+  margin-left: 150px;
+  margin-top: 100px;
+  border-radius: 0 0 20px 20px;
+}
+
+.pricing-card {
+  flex: 1;
+  max-width: 300px;
+  text-align: center;
+  cursor: pointer;
+  overflow: hidden;
+  color: #fff;
+  border: 3px solid white;
+}
+
+.pricing-card a {
+  text-decoration: none;
+}
+
+.pricing-card-header {
+  display: inline-block;
+  padding: 12px 30px;
+}
+
+.price {
+  font-size: 20px;
+  color: #419FE1;
+  margin: 10px;
+}
+
+.order-btn {
+  display: inline-block;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  border: 2px solid #419FE1;
+  color: #419FE1;
+  padding: 18px 40px;
+  border-radius: 8px;
+  text-transform: uppercase;
+  font-weight: 500;
+  transition: .3s linear;
+}
+
+.order-btn:hover {
+  background-color: #419FE1;
+  color: #fff;
+  transition: .3s linear;
+}
+
+.story p {
+  font-family: 'Dancing Script', sans-serif; 
+  position: absolute;
+  margin: 50px 50px 0 160px;
+}
